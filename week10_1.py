@@ -1,0 +1,10 @@
+import pandas as pd
+df=pd.read_csv('students.csv',sep=';')
+print("First five entries are:")
+print(df.head(),"\n")
+print("Last five entries are:")
+print(df.tail(),"\n")
+print("Info of entries:")
+print(df.info(),"\n")
+print("Statistical data is:")
+print(df.describe(),"\n")
